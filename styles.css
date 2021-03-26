@@ -1,0 +1,151 @@
+* {
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    max-width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar {
+    max-width: 100%;
+    font-size: small;
+    padding: 6px;
+    color: rgba(0,0,0,0.87);
+    fill: rgba(0,0,0,0.87);
+    display: flex;
+    padding: 10px;
+
+    flex-direction: row-reverse;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+#navbar li {
+    display: inline;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+.btn {
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    border: none;
+
+}
+.logoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 290px ;
+}
+.searchContainer{
+    padding: 20px;
+}
+
+.logo {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+
+.searchBar {
+    padding: 5px 8px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+    max-height: 44px;
+    height:56px;
+}
+.icon{
+    padding: 0px 8px;
+}
+svg {
+    width: 24px;
+    height: 24px;
+}
+.searchLine {
+    color: #3c4043;
+    border: none;
+    width: 487px;  
+    height: 34px;
+}
+.searchLine:focus{
+    /* -webkit-appearance: none; */
+    outline-color: none;
+    outline-width: 0px;
+}
+
+.searchBar:hover{
+    border:none;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+ .searchBtns{
+    display: flex;
+    justify-content: center;
+    width: 584px;
+    height: 58px;
+    margin: auto;}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+p a {
+    padding: 0px 5px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+#userPhoto{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+}
+
+.footer1 {
+    font-size: 15px;
+    border-bottom:1px solid #dadce0;
+    padding: 15px 30px;
+
+}
+
+.footer2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 20px;
+
+
+}
+.footer2 li {
+    font-size: 14px;
+    display: inline;
+    padding: 15px;    
+}
