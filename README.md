@@ -3,7 +3,7 @@
 non-functional clone of the the Google homepage.
 This was an exercise from ["The Odin Projet"](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css) course for shaping some HTML and CSS skills.
 
-Link to view: https://zivkaplan.github.io/Fake-Google-homepage/
+View here: https://zivkaplan.github.io/Fake-Google-homepage/
 
 Screenshot: 
 
