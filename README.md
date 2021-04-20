@@ -1,6 +1,6 @@
 # Fake Googe homepage
 
-Non-functional clone of the the Google homepage.
+Non-functional clone of the the Google homepage (desktop only).
 An exercise from ["The Odin Projet"](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css) course.
 
 
